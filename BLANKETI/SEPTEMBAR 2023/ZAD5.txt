@@ -1,0 +1,21 @@
+a)
+
+  Nula
+  Nula
+  Jedan
+  Jedan
+  Dva
+  Dva
+
+-------------------------------------------
+
+b)
+
+  Nula
+  Jedan
+  Dva
+
+
+U Dictionary-ju, ključevi moraju biti jedinstveni. Prilikom dodavanja novog para ključ-vrednost sa istim ključem, prethodna vrednost se zamenjuje novom. 
+Zbog toga, kada se dodaju parovi (0, "Nula"), (1, "Jedan") i (2, "Dva"), svaki sa istim ključem kao i prethodni, samo će poslednja vrednost biti zadržana. 
+Dakle, na kraju će biti ispisane samo jedinstvene vrednosti "Nula", "Jedan" i "Dva".
