@@ -1,0 +1,10 @@
+Krug poluprecnika 1
+Valjak poluprecnika osnove: 1 i visine 1
+Povrsina je: 12.56
+Zapremina je: 12.56
+
+
+Izvršavanje datog programa će rezultirati ispisom površine i zapremine valjka koji ima poluprečnik osnove 1 i visinu 1.
+Prvo će biti ispisan tekst "Krug poluprecnika 1" koji predstavlja poziv konstruktora klase Krug prilikom kreiranja objekta tipa Valjak.
+Zatim će biti ispisan tekst "Valjak poluprecnika osnove: 1 i visine 1" što je poziv konstruktora klase Valjak. 
+Nakon toga, program će ispisati površinu valjka i njegovu zapreminu.
