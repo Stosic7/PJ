@@ -6,7 +6,9 @@ a)
 
 b)
 
-0+ j 0
-1+ j 1
-2+ j 2
-3+ j 3
+kad je KompleksniBroj klasa onda se sa new KompleksniBroj[4] ne kreiraju objekti vec
+se samo zauzme prostor. Zato ovaj program puca cim proba da pristupi property-u niz[i].Imaginarni.
+Da bi ovaj kod radio mora pre prve for petlje jos jedna for petlja gde ce da se inicijalizuje svaki
+element:
+	for (int i = 0; i < niz.Length; ++i)
+	niz[i] = new KompleksniBroj(i, i);
