@@ -12,6 +12,6 @@ public class Kocka extends Kvadrat
     }
 }
 
-
+// Mora da atribut a, koji se nalazi u klasi Kvadrat, bude protected, a ne private.
 //Nedostaje poziv konstruktora bazne klase Kvadrat u konstruktoru klase Kocka.
 //Metoda površina u klasi Kocka treba da preklopi metod površina iz bazne klase Kvadrat.
